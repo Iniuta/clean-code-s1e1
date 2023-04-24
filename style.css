@@ -4,49 +4,61 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .img-container {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .img-container img {
   width: 100%;
 }
+
 .img-container .more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
+  /*  */
   .img-container {
     text-align: center;
   }
+  /*  */
 }
+
 .main-page {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .add-input-wrapper {
   display: flex;
 }
+
 .ul {
   margin: 0;
   padding: 0px;
 }
+
 li,
 .title {
   list-style: none;
 }
+
 input,
 button {
   outline: none;
 }
+
 button {
   background: none;
   border: 0px;
@@ -56,10 +68,13 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
+
 .title,
 label[for="new-task"] {
   color: #333;
@@ -70,6 +85,7 @@ label[for="new-task"] {
   margin: 0;
   text-transform: uppercase;
 }
+
 input[type="text"] {
   margin: 0;
   font-size: 18px;
@@ -82,20 +98,24 @@ input[type="text"] {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 input[type="text"]:focus {
   color: #333;
 }
 
 /* New Task */
+
 label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
+
 input#new-task {
   width: 318px;
 }
 
 /* Task list */
+
 .list {
   overflow: hidden;
   padding: 20px 0;
@@ -105,6 +125,7 @@ input#new-task {
   justify-content: space-between;
   align-items: center;
 }
+
 .list > * {
   vertical-align: middle;
 }
@@ -112,25 +133,30 @@ input#new-task {
 .list > input[type="checkbox"] {
   margin: 0 10px;
 }
+
 .list > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .list > input[type="text"] {
   width: 226px;
 }
+
 .btn-delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .btn-delete img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 .ul#completed-tasks label {
   text-decoration: line-through;
   color: #888;
